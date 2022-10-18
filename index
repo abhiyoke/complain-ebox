@@ -1,0 +1,119 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+
+
+    <!-- dimensions of the project homepage like width and length of the homepage,etc -->
+
+    <meta charset="UTF-8">
+
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+
+    <link rel="stylesheet" href="css/style.css">
+
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <!-- title of the project -->
+
+    <title>E-Complain Box</title>
+
+
+
+</head>
+<body>
+
+    <!-- navigation bar and various options of features of project like login,signup,contact us,etc -->
+    <nav class="navbar background">
+
+        <ul class="nav-list">
+            <!-- logo of the our project designed with help of canva designing tool -->
+
+            <div class="logo"><img src="img/e-complain box logo.jpg" alt="logo"></div>
+
+            <li><a href="#home">Home</a></li>
+
+            <li><a href="#signup">SignUp</a></li>
+            
+            <li><a href="#login">LogIn</a></li>
+
+            <li><a href="#about">About</a></li>
+
+
+
+        </ul>
+
+        <div class="rightnav"></div>
+
+            <input type="text" name="search" id="search">
+
+            <button class="btn btn-sm">Search</button>
+    </nav>
+
+
+
+  <section class="background firstSection">
+
+      <div class="box-main">
+
+          <div class="firstHalf">
+
+              <p class="text-big">The solution of your problem is here.</p>
+
+              <p class="text-small">Share your problems with us related to hostel.</p>
+
+              <div class="buttons">
+
+                  <button class="btn">AIT site</button>
+
+              </div>
+          </div>
+         
+         
+          <div class="secondHalf">
+
+              <img src="img\WhatsApp Image 2022-06-11 at 10.26.12 AM.jpeg" alt="Laptop Image">
+
+          </div>
+      </div>
+
+
+
+  </section> 
+
+  <p class="sectiontag">Made by Aitians:-</p>
+
+  <p class="sectionsubtag">Aman Buldak,Lalit Chaudhary,Ankit Kumar Pandey,Abhishek Kumar,Abhay Sahu</p>
+
+  <div class="thumbnail">
+
+      <img src="img/groupphoto.jpeg" id="grp" alt="apple photo">
+
+  </div>
+</section> 
+
+
+<section class="login">
+   
+    <h2>LogIn</h2>
+
+    <div class="form">
+
+        <input type="text" name="username" id="username" placeholder="Enter your name id">
+
+    <br><br>    <input type="text" name="pwd" id="pwd" placeholder="password">
+
+    <button class="btn btn-dark">LogIn</button>
+
+    </div>
+    
+
+
+
+
+</section>
+
+<a href="https://forms.gle/7wwowEzMKjxGD5qJ9" id="login">LOG IN</a>
+
+</body>
+
+</html> 
