@@ -1,6 +1,6 @@
 /* padding refers to adjustment of the styles or icons or fonts we have used */
 
-*{
+* {
     margin: 0;
 
     padding: 0;
@@ -9,19 +9,19 @@
 
 /* logo dimensions and fonts */
 
-.logo{
+.logo {
     width: 20%;
 
     display: flex;
 
     justify-content: center;
 
-    align-items: center ;
+    align-items: center;
 }
 
 /* logo images adjustments */
 
-.logo img{
+.logo img {
 
     width: 90%;
 
@@ -32,7 +32,7 @@
 
 /* navigation bar dimension */
 
-.navbar{
+.navbar {
     display: flex;
     align-items: center;
 
@@ -45,7 +45,7 @@
 
 /* input search bar dimensions */
 
-input{
+input {
     width: 200px;
     height: 18px;
 
@@ -53,37 +53,42 @@ input{
 
 /* navigation buttons fonts and dimensions */
 
-button{
+button {
     width: 110px;
     height: 20px;
 }
+
 .nav-list {
     width: 50%;
     display: flex;
-    align-items: center;    
+    align-items: center;
 
 }
 
-.nav-list li{
+.nav-list li {
     list-style: none;
     padding: 22px 26px;
-     
+
 
 }
-.nav-list li a{
+
+.nav-list li a {
     text-decoration: none;
     color: black;
-} 
-.nav-list li a:hover{
+}
+
+.nav-list li a:hover {
     text-decoration: none;
-    color: grey ;
-} 
-.rightnav{
+    color: grey;
+}
+
+.rightnav {
     width: 50%;
     text-align: right;
-   
+
 }
-#search{
+
+#search {
     padding: 5px;
     font-size: 17px;
     border: 2px solid grey;
@@ -92,7 +97,7 @@ button{
 
 /* background dimensions and fonts */
 
-.background{
+.background {
 
     background: rgba(0, 0, 0, 0.7) url('../img/army-institute-of-technolog.jpg');
     background-size: cover;
@@ -100,11 +105,11 @@ button{
 
 }
 
-.firstSection{
+.firstSection {
     height: 100vh;
 }
 
-.box-main{
+.box-main {
     display: flex;
     justify-content: center;
 
@@ -118,7 +123,7 @@ button{
     height: 80%;
 }
 
-.firstHalf{
+.firstHalf {
     width: 75%;
     display: flex;
 
@@ -127,10 +132,11 @@ button{
 
 }
 
-.secondHalf{
-width: 30%;
+.secondHalf {
+    width: 30%;
 }
-.secondHalf img{
+
+.secondHalf img {
 
     width: 70%;
     border: 4px solid white;
@@ -140,43 +146,43 @@ width: 30%;
 
     margin: auto;
 
-    }
-
-
-.text-big{
-font-size: 41px;
 }
 
-.text-small{
-font-size: 18px;
+
+.text-big {
+    font-size: 41px;
 }
 
-.btn{
+.text-small {
+    font-size: 18px;
+}
+
+.btn {
     padding: 6px 20px;
     margin: 5px 3px;
 
-    border:1px solid white;
-    border-radius:8px;
+    border: 1px solid white;
+    border-radius: 8px;
 
     font-size: 10px;
-    background:none;
+    background: none;
 
     color: white;
     cursor: pointer;
 }
 
-.btn-sm{
+.btn-sm {
     padding: 6px 10px;
     vertical-align: middle;
 }
 
 
-.btn-dark{
+.btn-dark {
     color: black;
     border: 2px solid black;
 }
 
-.secright{
+.secright {
     height: 500px;
     display: flex;
 
@@ -187,7 +193,7 @@ font-size: 18px;
 
 }
 
-#grp{
+#grp {
     height: 250px;
     width: 350px;
 
@@ -197,7 +203,7 @@ font-size: 18px;
 }
 
 
-form{
+form {
 
     max-width: 344px;
     margin: 42px auto;
@@ -205,25 +211,22 @@ form{
 }
 
 
-.form input{
+.form input {
 
     margin: 30px;
     width: 25%;
 
     font-size: 19px;
-    border:2px solid grey;
+    border: 2px solid grey;
 
     border-radius: 6px;
 
 }
 
 
-#login{
+#login {
 
     font-size: 20px;
     text-decoration: none;
-    
-}  
 
-
-
+}
